@@ -29,3 +29,12 @@ docker-compose up -d
 docker-compose run app bin/rake db:create
 ```
 6. Open http://localhost:3000/
+
+To stop container then run following command
+```
+$ docker-compose stop
+```
+To start container again then run following command
+```
+$ docker-compose start
+```
