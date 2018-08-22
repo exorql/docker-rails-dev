@@ -2,7 +2,7 @@
 Docker template for Rails app or Rails + MySQL development.
 
 # Usage
-1. Copy env.sample to .env
+1. Copy env.sample to .env and edit the .env
 ```
 $ cp .env.sample .env
 ```
@@ -18,6 +18,7 @@ default: &default
   pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
   username: root
   password: xxxxxx # <- Modify here.
+  host: db # <- Modify here.
 ```
 4. Run 
 ```
