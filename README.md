@@ -1,6 +1,11 @@
 # docker-rails-dev
 Docker template for Rails app or Rails + MySQL development.
 
+# Versions
+- Ruby 2.5.0
+- Rails 5.2.0
+- MySQL 5.7
+
 # Usage
 1. Copy env.sample to .env and edit the .env
 ```
